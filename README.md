@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+Onur, sana örnek olarak README dosyanı, proje ekran görüntüleriyle ve React Native/Expo notlarıyla düzenledim. Bu haliyle, GitHub üzerinde proje tanıtımı için uygun:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+````markdown
+# My Music App 🎵
 
-## Get started
+Bu, Expo ile geliştirilmiş bir React Native müzik uygulamasıdır. Kullanıcılar şarkıları görebilir, arayabilir ve detaylarına bakabilir.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Proje Ekran Görüntüleri
 
-2. Start the app
+### Ana Ekran
+![Ana Ekran](./readmeAssets/image1.jpg)
 
-   ```bash
-   npx expo start
-   ```
+### Arama
+![Arama](./readmeAssets/image2.jpg)
 
-In the output, you'll find options to open the app in a
+### Şarkı Detay
+![Şarkı Detay](./readmeAssets/image3.jpg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Başlamak
 
-## Get a fresh project
+1. Bağımlılıkları yükle
 
-When you're ready, run:
+```bash
+npm install
+````
+
+2. Uygulamayı başlat
+
+```bash
+npx expo start
+```
+
+Ardından uygulamayı şu şekilde açabilirsin:
+
+* [Android Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+* [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
+* [Expo Go](https://expo.dev/go)
+
+---
+
+## Dosya Yapısı
+
+* **app/** → Uygulama sayfaları
+* **assets/** → Görseller ve diğer medya dosyaları
+* **package.json** → Proje bağımlılıkları
+
+---
+
+## Sıfırdan Başlamak
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Bu komut, starter kodunu `app-example` dizinine taşır ve temiz bir `app` dizini oluşturur.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Kaynaklar
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* [Expo Docs](https://docs.expo.dev/)
+* [React Native Docs](https://reactnative.dev/docs/getting-started)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Katıl
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* [Expo GitHub](https://github.com/expo/expo)
+* [Expo Discord](https://chat.expo.dev)
